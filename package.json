@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-sharpdigitalocean",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "strapi @beta file upload to digital ocean spaces, with two resized images, resized by sharp",
   "main": "/lib/index.js",
   "scripts": {
