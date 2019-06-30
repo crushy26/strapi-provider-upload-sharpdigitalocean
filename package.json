@@ -1,0 +1,15 @@
+{
+  "name": "strapi-provider-upload-sharpdigitalocean",
+  "version": "1.0.0",
+  "description": "upload files to digital ocean spaces, with two resized images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "merijn van essen",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.485.0",
+    "sharp": "^0.22.1"
+  }
+}
