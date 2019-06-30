@@ -4,7 +4,7 @@ strapi @beta
 Resize your uploaded images to two variants
 change extensions/file-upload settings to Local upload resize
 
-npm i strapi-provider-upload-sharpdigitalocean
+    npm i strapi-provider-upload-sharpdigitalocean
 
 sharp nodejs resizing library https://github.com/lovell/sharp
 
