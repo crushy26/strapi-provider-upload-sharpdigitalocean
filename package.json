@@ -2,7 +2,7 @@
   "name": "strapi-provider-upload-sharpdigitalocean",
   "version": "1.0.1",
   "description": "strapi @beta file upload to digital ocean spaces, with two resized images, resized by sharp",
-  "main": "index.js",
+  "main": "/lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "dependencies": {
     "aws-sdk": "^2.485.0",
     "sharp": "^0.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
   }
 }
