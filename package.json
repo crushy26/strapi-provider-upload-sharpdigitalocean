@@ -1,8 +1,11 @@
 {
   "name": "strapi-provider-upload-sharpdigitalocean",
-  "version": "1.0.3",
+  "version": "3.0.0-beta.7",
   "description": "strapi @beta file upload to digital ocean spaces, with two resized images, resized by sharp",
-  "main": "/lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +14,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/merijnponzo/strapi-provider-upload-sharpdigitalocean"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
   },
   "dependencies": {
     "aws-sdk": "^2.485.0",
